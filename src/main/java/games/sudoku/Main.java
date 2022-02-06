@@ -17,7 +17,7 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception {
         FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("CellField.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), width, height);
-        primaryStage.setTitle("СУДОКУ");
+        primaryStage.setTitle("SUDOKU");
         scene.setFill(Color.TRANSPARENT);
         primaryStage.setScene(scene);
         primaryStage.setResizable(false);

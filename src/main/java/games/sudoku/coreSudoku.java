@@ -262,7 +262,7 @@ public class coreSudoku {
     }
 
     enum Levels {
-        Easy(14), Normal(28), Hard(42), Nightmare(56), Hell(70);
+        Easy(14), Normal(28), Nightmare(42), Hell(56);
         int lvl;
 
         public int getLvl() {

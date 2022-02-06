@@ -57,7 +57,7 @@ public class Controller {
                 arrXY = coreSudoku.generateXY(x, y, arrXY, cell, stepCell);
                 render();
                 if (coreSudoku.winSudoku()) {
-                    alert("Вы выиграли!", "Поздравляю!!!");
+                    alert("WIN!", "Congratulations!!!");
                     buttonUpdate();
                 }
             }
@@ -92,7 +92,7 @@ public class Controller {
         if (fillCell == true) {
             setFillCell(Color.PALEGREEN);
         }
-        label.setText("Неизвестных: " + coreSudoku.getHidenNumber());
+        label.setText("Unknown: " + coreSudoku.getHidenNumber());
         setLineCell();
         setAllNumber(coreSudoku.sudokuArr, Color.BLACK);
         coreSudoku.synchrArr(coreSudoku.arrUserNumber, coreSudoku.sudokuArr);

@@ -15,9 +15,9 @@
     </padding>
     <children>
         <FlowPane alignment="CENTER" fx:id="flowPane">
-            <Button fx:id="buttonUpdate" onAction="#buttonUpdate" text="Обновить"/>
+            <Button fx:id="buttonUpdate" onAction="#buttonUpdate" text="Refresh"/>
             <ComboBox fx:id="comboBox" onAction="#comboBoxList"/>
-            <RadioButton fx:id="radioButton" onAction="#radioButton" text="Подсветка завершенных комбинаций"></RadioButton>
+            <RadioButton fx:id="radioButton" onAction="#radioButton" text="Show completed combinations"></RadioButton>
             <Label fx:id="label" ></Label>
         </FlowPane>
         <Pane fx:id="pane"/>
